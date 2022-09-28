@@ -13,7 +13,7 @@ console.log(tipAmount);
 
 // individual amount
 let numPersons = document.querySelector("#person_number").value;
-document.querySelector("#indivdual_amt").value = Math.ceil(tipAmount/numPersons);
+document.querySelector("#indivdual_amt").value = parseFloat(tipAmount/numPersons);
 
 
 document.getElementById("total_bill").value = parseFloat(billAmount) + parseFloat(tipAmount);

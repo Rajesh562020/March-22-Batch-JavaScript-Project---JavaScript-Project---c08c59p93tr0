@@ -3,8 +3,8 @@ html{
     height: 100%;
 }
 #container{
-    height:325px;
-    width:350px;
+    height:425px;
+    width:450px;
     background-color:#3ea12a;
     display:grid;
     grid-template-columns:100px 1fr;

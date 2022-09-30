@@ -11,16 +11,16 @@
 </head>
 <body>
     <div id="container">
-     Bill Amount: <input id="bill_amount" class="input-styling" type="number"> 
+     Bill Amount: <input id="bill_amount" class="input-styling" type="text" pattern="[0-9]{5}"> 
      Tip Percentage: <input id="tip_percentage" 
-     class="input-styling" type="number">
+     class="input-styling" type="text" pattern="[0-9]{3}">
+       
      Number of Person: <input id="person_number" 
-     class="input-styling" type="number">
+     class="input-styling"  type="text" pattern="[0-9]{5}">
      
 
      Tip Amount: <input id="tip_amount" class="input-styling" readonly>
-     Total Bill: <input id="total_bill" 
-     class="input-styling" readonly>
+     
      Individual split: <input id="indivdual_amt" 
      class="input-styling" readonly>
 

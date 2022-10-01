@@ -11,10 +11,13 @@ let tipAmount = document.getElementById("tip_amount").value = billAmount * tipPe
 
 console.log(tipAmount);
 
-// individual amount
+let totalBill=parseInt(billAmount) + parseInt(tipAmount);
+// alert(totalBill);
+
+//individual amount 
 let numPersons = document.querySelector("#person_number").value;
-document.querySelector("#indivdual_amt").value = parseFloat(tipAmount/numPersons);
+document.querySelector("#indivdual_amt").value = parseInt((totalBill)/numPersons);
 
 
-document.getElementById("total_bill").value = parseFloat(billAmount) + parseFloat(tipAmount);
+
 })

@@ -5,35 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style/style.css">
 
 
 </head>
 <body>
-    <div id="container">
-     Bill Amount: <input id="bill_amount" class="input-styling" type="text" pattern="[0-9]{5}"> 
-     Tip Percentage: <input id="tip_percentage" 
-     class="input-styling" type="text" pattern="[0-9]{3}">
+    <main>
+        <h1>Tip Calculator</h1>
+        <div id="container">
+           <label>Bill Amount:</label>
+           <input id="bill_amount" class="input-styling" type="number" value="0" > 
+            <label>Tip Percentage:</label>
+            <input id="tip_percentage" 
+            class="input-styling" type="number" value="0">
+            <label>Number of Person:</label>
+            <input id="person_number" 
+            class="input-styling" type="number" value="1">
+            
+            <label>Tip Amount:</label>
+            <input id="tip_amount" class="input-styling" readonly>
+            <label> Individual Bill split:</label>
+            <input id="indivdual_amt" 
+            class="input-styling" readonly>
        
-     Number of Person: <input id="person_number" 
-     class="input-styling"  type="text" pattern="[0-9]{5}">
-     
-
-     Tip Amount: <input id="tip_amount" class="input-styling" readonly>
-     
-     Individual split: <input id="indivdual_amt" 
-     class="input-styling" readonly>
-
-      <!-- button -->
-     <button id="btn" >Tip?</button>
-
+             <!-- button -->
+            <button id="btn" >Tip?</button>
+       
+       
+       
+       
+       
+           </div>
+    </main>
+   
 
 
-
-
-    </div>
-
-
-<script src="./App.js"></script>
+<script src="./script/script.js"></script>
 </body>
 </html>

@@ -10,27 +10,34 @@ input[type=number]::-webkit-outer-spin-button{
     margin:0;
 }
 main{
-    height:100vh;
-    background-color: darkolivegreen;
+    height:100%;
+    /* background-color: darkolivegreen; */
+    background-image: url('../assets/bc.png');
+    background-repeat: no-repeat;
+    background-size: 2000px auto;
+    /* opacity:0.2; */
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 #container{
     
     max-width:500px;
     height:auto;
-    background-color:lightgreen;
+    background-color:whitesmoke;
     box-shadow: 1px 1px 15px 3px #2d3436;
     border-radius: 5px;
     padding:50px;
+    font-family: 'Cedarville Cursive', cursive;
     
 }
 h1{
    margin-bottom: 10px;
-   
-   color:white;
+   line-height: 50px;
+   color:black;
+   font-family: 'Cedarville Cursive', cursive;
 }
 label{
  display:block;  
